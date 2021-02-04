@@ -1,10 +1,10 @@
-ErrorDocument 403 /Php-blog_mvc/view/error.php
-ErrorDocument 404 /Php-blog_mvc/view/error.php
-ErrorDocument 405 /Php-blog_mvc/view/error.php
-ErrorDocument 408 /Php-blog_mvc/view/error.php
-ErrorDocument 500 /Php-blog_mvc/view/error.php
-ErrorDocument 502 /Php-blog_mvc/view/error.php
-ErrorDocument 504 /Php-blog_mvc/view/error.php
+ErrorDocument 403 view/error.php
+ErrorDocument 404 view/error.php
+ErrorDocument 405 view/error.php
+ErrorDocument 408 view/error.php
+ErrorDocument 500 view/error.php
+ErrorDocument 502 view/error.php
+ErrorDocument 504 view/error.php
 
 RewriteEngine On
 RewriteRule ^([^_]*)_([^_]*)\.html$ ?p=$1&a=$2 [L]

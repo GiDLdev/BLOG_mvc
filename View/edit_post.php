@@ -25,7 +25,7 @@
         <div class="col s6 left-align">
     			<br><br>
           <div class="input-field file-field">
-    				<div class="btn light-blue">
+    				<div class="btn green">
     					<span>Modifier l'image</span>
     					<input type="file" name="image">
     				</div>

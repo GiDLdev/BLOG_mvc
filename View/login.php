@@ -30,7 +30,7 @@
   				</div>
 
   				<center>
-  					<button type="submit" name="submit" class="waves-effect waves-light btn light-blue">
+  					<button type="submit" name="submit" class="waves-effect waves-light btn green">
   						<i class="material-icons left">perm_identity</i>
   						Se connecter
   					</button>

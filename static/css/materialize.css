@@ -5011,7 +5011,7 @@ small {
   overflow-y: hidden;
   height: 48px;
   width: 100%;
-  background-color: #fff;
+  background-color: #ff3900;
   margin: 0 auto;
   white-space: nowrap;
 }
@@ -5074,7 +5074,7 @@ small {
 
 .tabs .tab a:hover, .tabs .tab a.active {
   background-color: transparent;
-  color: #ee6e73;
+  color: #fff;
 }
 
 .tabs .tab.disabled a,

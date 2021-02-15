@@ -184,10 +184,9 @@ class Admin extends Blog
 
     public function add(array $aData)
     {
-      $oStmt = $this->oDb->prepare('INSERT INTO Posts (title, body, createdDate) VALUES(:title, :body, :created_date)');
+      $oStmt = $this->oDb->prepare('INSERT INTO Posts (title, body, createdDate) VALUES(:title, :body, NOW())');
       $oStmt->bindValue(':title', $aData['title'], \PDO::PARAM_STR);
       $oStmt->bindValue(':body', $aData['body'], \PDO::PARAM_LOB);
-      $oStmt->bindValue(':createdDate', $aData['created_date'], \PDO::PARAM_STR);
       return $oStmt->execute();
     }
 
